@@ -1,0 +1,168 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  a {
+    color: #00ffc8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #00d1a1;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #00ffc8;
+    margin-top: 20px;
+  }
+  
+  p a {
+    float: right;
+    margin-bottom: 15px;
+    font-size: 1em;
+  }
+  
+  .contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .buscar input[type="text"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .buscar input[type="submit"] {
+    background-color: #00ffc8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .buscar input[type="submit"]:hover {
+    background-color: #00d1a1;
+  }
+  
+  .insertarDatos {
+    margin: 20px 0;
+    text-align: right;
+  }
+  
+  .insertarDatos a {
+    font-size: 2em;
+    padding: 10px 16px;
+    border-radius: 50%;
+    background: #00ffc8;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 255, 200, 0.6);
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(0, 255, 191, 0.1);
+  }
+  
+  th, td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: rgba(0, 255, 191, 0.1);
+    color: #00ffc8;
+  }
+  
+  td a {
+    padding: 6px 10px;
+    margin: 2px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.9em;
+  }
+  
+  td a[href*="actualizar"] {
+    background-color: #1e90ff;
+    color: #fff;
+  }
+  
+  td a[href*="eliminar"] {
+    background-color: #ff4c4c;
+    color: #fff;
+  }
+  
+  td a[href*="comprar"] {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  td a[href*="vercompras"] {
+    background-color: #6f42c1;
+    color: #fff;
+  }
+  
+  /* Modal personalizado (usa Bootstrap) */
+  .modal-content {
+    background-color: #1c1c1c;
+    color: #fff;
+    border: 1px solid #00ffc8;
+    border-radius: 12px;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #00ffc8;
+  }
+  
+  .modal-title {
+    color: #00ffc8;
+  }
+  
+  .modal-body label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .modal-body input[type="text"],
+  .modal-body input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: #2d2d2d;
+    color: #fff;
+  }
+  
+  .modal-body input[type="submit"] {
+    background-color: #00ffc8;
+    color: #000;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modal-body input[type="submit"]:hover {
+    background-color: #00d1a1;
+  }
+  

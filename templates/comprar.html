@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPRAS</title>
+    <link rel="stylesheet" href="/static/comprar.css">
+</head>
+<body>
+    <form method="post" action="/comprar">
+        <input type="hidden" name="txtid" value="{{id}}">
+        <p>Nombre del cliente: {{datos[1]}}</p>
+        <p>NIT del cliente: {{datos[2]}}</p>
+        <label for="Producto">Producto</label>
+        <select name="txtproducto" required>
+            <option value="pepsi">PEPSI</option>
+            <option value="fanta">FANTA</option>
+            <option value="papas lays">PAPAS LAYS</option>
+            <option value="del valle">DEL VALLE</option>
+            <option value="sprite">SPRITE</option>
+            <option value="cascada">CASCADA</option>
+        </select>
+        <label for="CANTIDAD">CANTIDAD</label>
+        <input type="text" name="txtcantidad" required><br>
+        <label for="costo">COSTO</label>
+        <input type="text" name="txtcosto" required><br>
+        <input type="submit" value="REGISTRAR">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .formulario {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
+    position: relative;
+    z-index: 1;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #cccccc;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #00ffc8, #00aaff);
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #00e6b8, #0099dd);
+  }
+  
+  /* Marca de agua: botella de gaseosa */
+  body::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 180px;
+    height: 300px;
+    background-image: url('/static/botella.png'); /* Reemplazá si usás otro nombre */
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.07;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
