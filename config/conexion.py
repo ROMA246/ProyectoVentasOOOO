@@ -1,8 +1,8 @@
 import mysql.connector
 
 conexion = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="1234",
-    database="bdventas"
+    host="bkzybqriwe6kbmukkonj-mysql.services.clever-cloud.com",
+    user="uxqa4i4k7zj1efzm",
+    password="B1e2sP6t50jnVEHe43GL",
+    database="bkzybqriwe6kbmukkonj"
 )
